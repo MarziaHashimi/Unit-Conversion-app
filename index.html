@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app-container">
+        <div class="section">Metric/Imperial Unit Conversion</div>
+
+        <div id="input-box" class="section">
+          
+            <input type="number" id="inputNumber" placeholder="Enter a number:" style="height: 40px; text-align: center; border: none;" >
+        </div>
+
+        <button id="convert-button" class="section" onclick="convertUnits()">Convert</button>
+
+        <div id="result-container" class="section">
+            <div id="length-result"></div>
+            <div id="volume-result"></div>
+            <div id="mass-result"></div>
+        </div>
+    </div>
+
+    <script src="script.js"> </script>
+</body>
+</html>
